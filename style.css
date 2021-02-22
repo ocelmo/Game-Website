@@ -1,9 +1,9 @@
 body{
-  background-color: lightblue;
+  background-color: rgb(179, 229, 255);
 }
 
 h1{
   color: black;
-  font-size: 300px;
+  font-size: 200px;
   font-family: "Sans-Serif";
 }
