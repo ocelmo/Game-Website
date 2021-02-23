@@ -5,8 +5,7 @@ var xposition;
 var yposition;
 
 function setup() {
-  /*createCanvas(800, 500);*/
-  Canvas { Width: 800px; Height: 500px; Margin: 0 auto; Vertical-align: middle;}
+  createCanvas(800, 500)
   background(179,229, 255);
   xposition = 0;
   yposition = 0;
