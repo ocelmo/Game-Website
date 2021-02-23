@@ -1,11 +1,12 @@
 /*global createCanvas, background, rect, fill, noStroke, width, stroke, strokeWeight, line,
-ellipse, keyCode, keyIsPressed, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, triangle,*/
+ellipse, keyCode, keyIsPressed, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, triangle, Canvas */
 
 var xposition;
 var yposition;
 
 function setup() {
-  createCanvas(800, 500);
+  /*createCanvas(800, 500);*/
+  Canvas { Width: 800px; Height: 500px; Margin: 0 auto; Vertical-align: middle;}
   background(179,229, 255);
   xposition = 0;
   yposition = 0;
