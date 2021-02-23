@@ -15,7 +15,9 @@ h2{
 }
 
 button{
-  height: 50px;
-  width: 100px;
+  height: 100px;
+  width: 200px;
+  font-family: "Sans-Serif";
+  font-size: 10px;
 }
   
