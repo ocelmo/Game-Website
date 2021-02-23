@@ -12,7 +12,9 @@ function setup() {
 }
 
 function draw() {
+  background(179,229, 255);
   fill(59,0,179);
+  noStroke();
   rect(30 + xposition, 247 + yposition, 40, 40);
  
   if (keyIsPressed && keyCode == LEFT_ARROW) xposition--;
@@ -21,7 +23,7 @@ function draw() {
   
   if (keyIsPressed && keyCode == UP_ARROW) yposition--;
   
-  if(keyIsPressed && keyCode == DOWN_ARROW) yposition++;
+  if (keyIsPressed && keyCode == DOWN_ARROW) yposition++;
   
 }
 
