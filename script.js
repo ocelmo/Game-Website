@@ -5,7 +5,7 @@ var xposition;
 var yposition;
 
 function setup() {
-  createCanvas(1850, 1500);
+  createCanvas(800, 500);
   background(179,229, 255);
   xposition = 0;
   yposition = 0;
