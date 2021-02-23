@@ -1,3 +1,6 @@
+/*global createCanvas, background, rect, fill, noStroke, width, stroke, strokeWeight, line,
+ellipse, keyCode, keyIsPressed, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, triangle,*/
+
 var xposition;
 var yposition;
 
