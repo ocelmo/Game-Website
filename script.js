@@ -25,8 +25,8 @@ function draw() {
   
   if (keyIsPressed && keyCode == DOWN_ARROW) yposition++;
   
-   if (yposition >= 780) {
-      yposition = 780;
+   if (yposition >= 500) {
+      yposition = 500;
     }
     if (yposition <= 20) {
       yposition = 20;
